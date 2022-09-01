@@ -55,13 +55,43 @@ ul {
     text-shadow: 3px 3px orange;
 }
 
-#favorite-music-name {
-    background-color: fuchsia;
-}
-
 .favorite-section {
     background-color: lightgrey;
     border: 3px black dotted;
     margin: 25px;
     padding: 5px;
+    color: lightcoral
+}
+
+.section-header {
+    color: lightyellow;
+}
+
+#favorite-movie-title  {
+    font-style: italic;
+    color: black
+}
+
+#favorite-music-name {
+    font-style: bold;
+    font-weight: 800;
+    color: darkgreen;
+    background-color: lightpink
+}
+
+.favorite-image {
+    border-radius: 50%;
+}
+
+table, th, td {
+    border: 2px solid;
+    border-collapse: collapse;
+}
+
+th {
+    color: black
+}
+
+td {
+    color: green
 }
